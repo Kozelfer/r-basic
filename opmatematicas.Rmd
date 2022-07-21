@@ -1,0 +1,170 @@
+---
+title: "Calculadora en R"
+output: pdf_document
+---
+
+Calculadora codigo + op
+
+**+ Suma** 
+ejemplo:
+
+```{python}
+print(10 + 10)
+```
+
+ **- Resta**
+ Ejemplo:
+ 
+```{python}
+print(10-10)
+```
+** Multiplicación**
+Ejemplo:
+
+```{python}
+print(5*5)
+```
+
+
+
+**/ División**
+ Ejemplo:
+ 
+```{python}
+print(10/5)
+```
+ 
+ 
+ **^ Potencia**
+ Ejemplo:
+ 
+```{python}
+print(40^2)
+```
+ 
+ **%/%  Cociente entero en R pero si es python es //**
+ Ejemplo:
+ 
+```{python}
+print(10//5)
+```
+ 
+ **%% Resto de la división entera en R pero en python es %**
+ Ejemplo:
+ 
+```{python}
+print(10%5)
+```
+ 
+ **sqrt(x) Raiz cuadrada**
+ Ejemplo:
+ 
+```{r}
+sqrt(25)
+```
+
+ **exp(x) Exponente de "e" o "Número Euler" que tiene un valor de 2.718282**
+ Ejemplo:
+ 
+```{r}
+exp(1)
+```
+ 
+ **log logartimo y se lee, logaritmo en base x a y**
+ Ejemplo:
+ 
+```{r}
+log(8, 2)
+```
+ 
+**factorial(x) Se define como el número factorial de un número entero positivo(son 0, 1, 2,3,4,5,6,7...) n como n! = n * (n-1)*2*1**
+
+```{r}
+factorial(5)
+```
+
+**choose(n,m) coeficiente binomial se define (n/m) el numero de los subcojuntos de k elemntos que tiene un conjunto de n elemntos**
+ejemplo:
+
+```{r}
+choose(5, 3)
+```
+
+apartir de ahora R solo lo lee en **Radianes** para pasarlo de grados a radianes toca aplicar la regla de 3
+
+**180 grados es = a pi radián**
+
+por ejemplo: **COS(60*PI/180)** **SIN(60*PI/180)** **asin(0.8660254) * 180/pi** 
+
+```{r}
+sin(pi/2)
+```
+
+**sin(x) el seno que es Opuesto sobre Hipotenusa **
+
+```{r}
+sin(2)
+```
+
+ **cos(x) coseno que es adyacente sobre Hipotenusa**
+ 
+```{r}
+cos(5)
+```
+ 
+ **tan(x) tangente que es opuesto sobre adyacente**
+ 
+```{r}
+tan(5)
+```
+ 
+ **Luego estan Arcoseno, arcocos y arcotan es la inversa del Seno, Coseno y Tangente**
+ 
+ **Algoritmo de euclide son segmentos** ***AB y CD*** **se dice que son ** ***conmesurables*** **si esciste un tercer segmento** ***u*** **tal que** ***AB y CD*** **pueden ambos medirse de forma exacta utilizando el segmento** ***u*** **como unidad.**
+ 
+ **print(x,n) Muestra las ncifras significativa del número x**
+```{r}
+print(2,3)
+```
+ 
+ **round(x,n) redondea a n cifras aparte redondea a la cifra par por ejemplo si tengo 1.35 redondea a 4 y si es 1.25 redondea a 2**
+ 
+```{r}
+round(sqrt(2),3)
+```
+
+**floor(x) parte entera por defecto de x**
+
+```{r}
+floor(sqrt(2))
+```
+
+**ceiling(x) parte entera por exceso de x**
+
+```{r}
+ceiling(sqrt(2))
+```
+
+**trunc(x) parte entera de x, eliminando la parte decimal es como el floor en negaqtivo**
+
+```{r}
+trunc(sqrt(2))
+```
+
+**a+bi número complejo o número imaginarios**
+
+**complex(real=...,imaginary=...) eso si lo quiero hacer de forma binómica**
+
+**complex(modulus=...,argument=...) eso si lo hago de forma pola?????**
+
+**sqrt(as.complex(-x)) una raíz para un número complejo**
+
+**Re(x) Obtiene la parte real de un número complejo**
+
+**Im(x) Obtiene la parte imaginaria de un número complejo**
+
+**Mod(x) obtiene el modulo es el número real positivo que mide su tamaño y generaliza el valor absoluto de un número real. **
+
+**Arg(x) Obtiene el argumento de un número complejo**
+
+**Conj(x) obtiene el conjugado**

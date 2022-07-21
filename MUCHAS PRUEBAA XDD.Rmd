@@ -1,0 +1,30 @@
+---
+title: "guardar"
+author: "SopasML"
+date: "2022-07-20"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Un script se sobrepone el codigo.
+
+Pero un **Mardown** es un visualizador de codigo que permite ejecutor informes deuna manera sencilla :D
+
+aq diferencia de un script no hace falta comentar pq ya los markdown lo coge como texto en cambio debemos mostrar que si es un codigo "Se hace desde insert" y hay varios lenguajes, para colocar un **chunk** 
+
+
+```{r}
+plot(cars)
+```
+
+segundo codigo:
+
+```{r}
+hist(cars$speed)
+```
+
+

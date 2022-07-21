@@ -1,0 +1,37 @@
+---
+title: "Variables y funciones"
+author: "SopasML"
+date: "2022-07-21"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Las variables son como cajas que tienen strings o números. 
+
+Ejemplo:
+
+```{r}
+edad = 23
+apellido = "Kozel"
+
+edad
+apellido
+```
+Función es como utilizar un argumento dado a la función para ahorrar codigo.
+
+Ejemplo:
+
+```{r}
+f = function(x) {4*x}
+f(4)
+```
+ Eso es como poner 4*4 ya que la x le puse el valor de 4 <:d
+ 
+ función paste significa **concatenar** que es sinonimo de unir :D 
+ 
+ que es la función sprint es R:
+ 
+ 

@@ -1,0 +1,24 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+Un script se sobrepone el codigo.
+
+Pero un **Mardown** es un visualizador de codigo que permite ejecutor informes deuna manera sencilla :D
+
+aq diferencia de un script no hace falta comentar pq ya los markdown lo coge como texto en cambio debemos mostrar que si es un codigo "Se hace desde insert" y hay varios lenguajes, para colocar un **chunk** 
+
+ahora los notebooks tienes que correr el codigo para que salga en la prevualizacion >:D,m entonves solo vas a ver los que mas te interesa.
+
+
+```{r}
+plot(cars)
+```
+
+segundo codigo:
+
+```{r}
+hist(cars$speed)
+```
